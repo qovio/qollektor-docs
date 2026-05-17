@@ -13,7 +13,7 @@ npm run build    # production build to ./dist
 npm run preview  # serve the built site locally
 ```
 
-Requires Node.js 20+.
+Requires Node.js 22.12+.
 
 ## Authoring content
 
