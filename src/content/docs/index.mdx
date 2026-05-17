@@ -1,0 +1,40 @@
+---
+title: Qollektor-Dokumentation
+description: Anleitungen und Antworten rund um Sammelbestellungen mit Qollektor.
+template: splash
+hero:
+  tagline: Sammelbestellungen ohne Zahlungsstress – Organisatoren bleiben außerhalb des Geldflusses, Teilnehmer zahlen per SEPA-QR direkt.
+  actions:
+    - text: Für Organisatoren
+      link: /organizer/getting-started/
+      icon: right-arrow
+      variant: primary
+    - text: Für Teilnehmer
+      link: /participant/join-campaign/
+      icon: right-arrow
+    - text: FAQ
+      link: /reference/faq/
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Was ist Qollektor?
+
+Qollektor ist eine Web-Plattform für die gesamte Lebensdauer einer Sammelbestellung: von der Kampagnenanlage über die Teilnehmerbestellungen bis zur Erzeugung individueller SEPA-Zahlungsreferenzen und der Statusverfolgung.
+
+<CardGrid>
+	<Card title="Kampagne erstellen" icon="open-book">
+		Lege fest, was bestellt wird, bis wann teilgenommen werden kann und wer eingeladen ist.
+	</Card>
+	<Card title="Teilnehmer einladen" icon="add-document">
+		Teile einen Link – Teilnehmer bestellen ohne Login direkt aus dem Browser.
+	</Card>
+	<Card title="SEPA-QR-Zahlung" icon="approve-check">
+		Jeder Teilnehmer erhält eine eindeutige Zahlungsreferenz und einen scanbaren EPC-QR-Code.
+	</Card>
+	<Card title="Status verfolgen" icon="bars">
+		Sieh auf einen Blick, wer bestellt und wer bereits gezahlt hat.
+	</Card>
+</CardGrid>
